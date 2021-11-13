@@ -59,6 +59,13 @@ async function run() {
             res.json(orders);
         })
 
+        // Get All Users
+        app.get('/users', async (req, res) => {
+            const cursor = usersCollection.find({});
+            const users = await cursor.toArray();
+            res.json(users);
+        })
+
         // Get User As Admin
         app.get('/users/:email', async (req, res) => {
             const email = req.params.email;
