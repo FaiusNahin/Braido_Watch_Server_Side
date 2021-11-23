@@ -1,4 +1,4 @@
-# Welcome to "Braido Watches" server site
+# Welcome to "Braido Watch" Server Site
 
 This repo is use for [Client site](https://github.com/programming-hero-web-course-4/niche-website-client-side-FaiusNahin).\
 View [Website](https://niche-website-client.web.app/).
